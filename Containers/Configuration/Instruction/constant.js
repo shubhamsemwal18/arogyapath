@@ -1,0 +1,27 @@
+export const CREATE_MEDICINE_INSTRUCTION = "app/InstructionManagement/CreateInstruction/CREATE_MEDICINE_INSTRUCTION";
+export const CREATE_MEDICINE_INSTRUCTION_SUCCESS = "app/InstructionManagement/CreateInstruction/CREATE_MEDICINE_INSTRUCTION_SUCCESS";
+export const CREATE_MEDICINE_INSTRUCTION_FAILURE = "app/InstructionManagement/CreateInstruction/CREATE_MEDICINE_INSTRUCTION_FAILURE";
+
+export const UPDATE_MEDICINE_INSTRUCTION = "app/InstructionManagement/UpdateInstruction/UPDATE_MEDICINE_INSTRUCTION";
+export const UPDATE_MEDICINE_INSTRUCTION_SUCCESS = "app/InstructionManagement/UpdateInstruction/UPDATE_MEDICINE_INSTRUCTION_SUCCESS";
+export const UPDATE_MEDICINE_INSTRUCTION_FAILURE = "app/InstructionManagement/UpdateInstruction/UPDATE_MEDICINE_INSTRUCTION_FAILURE";
+
+export const CREATE_EXERCISE_INSTRUCTION = "app/InstructionManagement/CreateInstruction/CREATE_EXERCISE_INSTRUCTION";
+export const CREATE_EXERCISE_INSTRUCTION_SUCCESS = "app/InstructionManagement/CreateInstruction/CREATE_EXERCISE_INSTRUCTION_SUCCESS";
+export const CREATE_EXERCISE_INSTRUCTION_FAILURE = "app/InstructionManagement/CreateInstruction/CREATE_EXERCISE_INSTRUCTION_FAILURE";
+
+export const UPDATE_EXERCISE_INSTRUCTION = "app/InstructionManagement/UpdateInstruction/UPDATE_EXERCISE_INSTRUCTION";
+export const UPDATE_EXERCISE_INSTRUCTION_SUCCESS = "app/InstructionManagement/UpdateInstruction/UPDATE_EXERCISE_INSTRUCTION_SUCCESS";
+export const UPDATE_EXERCISE_INSTRUCTION_FAILURE = "app/InstructionManagement/UpdateInstruction/UPDATE_EXERCISE_INSTRUCTION_FAILURE";
+
+export const CREATE_SPECIAL_INSTRUCTION = "app/InstructionManagement/CreateInstruction/CREATE_SPECIAL_INSTRUCTION";
+export const CREATE_SPECIAL_INSTRUCTION_SUCCESS = "app/InstructionManagement/CreateInstruction/CREATE_SPECIAL_INSTRUCTION_SUCCESS";
+export const CREATE_SPECIAL_INSTRUCTION_FAILURE = "app/InstructionManagement/CreateInstruction/CREATE_SPECIAL_INSTRUCTION_FAILURE";
+
+export const UPDATE_SPECIAL_INSTRUCTION = "app/InstructionManagement/UpdateInstruction/UPDATE_SPECIAL_INSTRUCTION";
+export const UPDATE_SPECIAL_INSTRUCTION_SUCCESS = "app/InstructionManagement/UpdateInstruction/UPDATE_SPECIAL_INSTRUCTION_SUCCESS";
+export const UPDATE_SPECIAL_INSTRUCTION_FAILURE = "app/InstructionManagement/UpdateInstruction/UPDATE_SPECIAL_INSTRUCTION_FAILURE";
+
+
+
+export const RESET_TO_INITIAL_STATE = "app/CreateDiets/RESET_TO_INITIAL_STATE" 

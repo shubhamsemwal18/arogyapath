@@ -1,0 +1,205 @@
+.header_spacing{
+  margin-top: 70px;
+}
+.PatientDetail {
+  line-height: 1rem;
+}
+.PatientDetail h4 {
+  font-size: 34px;
+  color: #247037;
+}
+.PatientDetail p {
+  color: #2bbf50;
+  font-weight: 600;
+  font-size: 18px;
+}
+.PatientDetail p span {
+  color: rgb(118, 118, 118);
+  font-weight: 600;
+}
+
+.details {
+  line-height: 2.5rem;
+}
+
+.details label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.formButton {
+  background: #2bbf50;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  padding: 8px 45px;
+  border-radius: 4px;
+  border: 0;
+  min-width: 100%;
+}
+.imageWrapper {
+  position: relative;
+}
+
+.imageWrapper input[type="file"] {
+  opacity: 0;
+  top: 0;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.details span {
+  color: #2bbf50;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.tab_border {
+  border: 2px solid #2bbf50;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.tab_color {
+  color: #2bbf50;
+  border: none;
+  padding: 10px 20px;
+  background-color: #fff;
+  font-weight: 600;
+}
+
+.customTabBox div ul li button:global(.active) {
+  background-color: #2bbf50;
+  color: white;
+  border-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.imageBox {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+}
+.upload_icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  display: inline-block;
+}
+
+.upload_icon input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.upload_icon svg {
+  color: #2bbf50;
+  font-size: 40px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: gainsboro;
+}
+
+.imageBox:hover .upload_icon svg {
+  box-shadow: 1px 1px 5px grey;
+}
+
+.imageBox span {
+  position: relative !important;
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50%;
+  border: 3px solid white !important;
+  box-shadow: 0px 0px 5px gainsboro;
+}
+
+.imageBox span img {
+  width: 100% !important;
+  height: 100% !important;
+  position: relative;
+  object-fit: cover;
+}
+/* --------------media query------------ */
+/* -----common responsive css---- */
+@media only screen and (max-width: 1399px) {
+}
+@media only screen and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 991px) {
+}
+@media only screen and (max-width: 767px) {
+  .PatientDetail {
+    align-items: center;
+  }
+  .tab_color {
+    font-size: 14px;
+    padding: 10px 22.4px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .PatientDetail h4 {
+    font-size: 30px;
+    font-size: 600;
+  }
+  .PatientDetail p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .tab_color {
+    font-size: 12px;
+    padding: 8px 10px;
+  }
+
+  .details {
+    line-height: 1.5rem;
+  }
+
+  .details label {
+    font-size: 14px;
+  }
+
+  .details span {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 480px) {
+}
+@media only screen and (max-width: 450px) {
+  .tab_color {
+    font-size: 10px;
+    padding: 7px 8px;
+  }
+}
+@media only screen and (max-width: 430px) {
+  .tab_color {
+    font-size: 10px;
+    padding: 7px 6px;
+  }
+
+  .details {
+    line-height: 1.3rem;
+  }
+
+  .details label {
+    font-size: 10px;
+  }
+
+  .details span {
+    font-size: 10px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .tab_color {
+    font-size: 10px;
+    padding: 7px 7.2px;
+  }
+}

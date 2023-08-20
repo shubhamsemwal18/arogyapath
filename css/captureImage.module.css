@@ -1,0 +1,122 @@
+.customModal{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #040404b5;
+    z-index: 999;
+}
+
+.customModal div div div{
+    height: 36px!important;
+    width: 110px!important;
+    border: 0!important;
+    border-radius: 4px!important;
+    top: unset!important;
+    left: unset!important;
+    right: 10px!important;
+    bottom:10px!important;
+    transform: unset!important;
+    background-color: #2BBF50!important;
+    padding: 15px;
+    margin-top: 10px;
+    transition: all ease .2s;
+}
+
+.hi_custom_modal div  div div::before{
+    content: 'कैप्चर';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+}
+
+.en_custom_modal div  div div::before{
+    content: 'Capture';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+}
+
+.customModal div  div div:hover{
+    background-color: transparent!important;
+    border: 1px solid #2BBF50!important;
+}
+.customModal div  div div:hover::before{
+    color: #2BBF50;
+}
+
+.customModal div div  video{
+    width: 500px!important;
+    border-radius: 5px 5px 0px 0px;
+    margin-bottom: 10px;
+}
+.customModal .captureBox{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    display: inline-block!important;
+    position: relative;
+}
+.customModal .captureBox div:first-child{
+    position: static!important;
+    display: block!important;
+}
+
+.loader{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #040404b5;
+    z-index: 999;
+}
+.loader div{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    display: flex!important;
+    flex-direction: column;
+    align-items: end;
+}
+.imageView{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: #040404b5;
+    z-index: 999;
+}
+.imageView .customBox{
+    padding: 10px;
+    background: white;
+    border-radius: 5px;
+    display: flex!important;
+    flex-direction: column;
+    align-items: end;
+}
+.imageView .customBox span{
+    position: relative!important;
+}
+.imageView .customBox span img{
+    position: relative!important;
+    height: auto!important;
+    width: auto!important;
+}

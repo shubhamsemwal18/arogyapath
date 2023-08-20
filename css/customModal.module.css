@@ -1,0 +1,70 @@
+.customModalLayout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    background-color: #0091ff6b;
+    z-index: 99;
+}
+
+.customModalLayout .customModalBox{
+    width: 50%;
+    background: white;
+    padding: 50px 100px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px darkgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.customModalLayout .customModalBox button{
+    background-color: #2BBF50;
+    border: 0;
+    min-width: 100px;
+}
+.customModalLayout .customModalBox button:hover{
+    border: 1px solid #2BBF50;
+    border-radius:5px;
+    background-color: transparent;
+    color: #2BBF50;
+}
+
+.customResponseBox{
+    padding: 5px 10px;
+    border: 1px solid #2BBF50;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+}
+
+.ErrorsLayout{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.customEditBox{
+    display: block;
+    border: 1px solid #2BBF50;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+.customEditBox svg{
+    color: #2BBF50;
+}
+
+.customEditBox:hover{
+    background-color: #2BBF50;
+}
+
+.customEditBox:hover svg{
+    color: #fff;
+}

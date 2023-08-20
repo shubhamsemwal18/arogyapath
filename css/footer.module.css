@@ -1,0 +1,137 @@
+.footer{
+    padding: 40px 0 0 0;
+    
+}
+
+.footer .upper{
+    padding: 45px 0;
+}
+.footer .upper .contactBox{
+    display:flex;
+    
+}
+.footer .upper .contactBox .left{
+    margin-right: 25px;
+}
+.footer .upper .contactBox .contactBoxTitle{
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.footer .upper .contactBox .contactBoxDesc{
+   
+   
+    font-weight: 400;
+    font-size: 13px;
+    font-weight: 400;
+    color: #033b4a;
+    margin-bottom: 0;
+    opacity: .8;
+}
+.footer .upper .contactBox span{
+    display: inline-block;
+   background:#2BBF50;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.footer .upper .contactBox span svg{
+    color:#fff;
+    font-size: 20px;
+}
+.footer .middle{
+    background:#0c4552;
+    padding: 30px 0;
+}
+.footerTitle{
+    font-size:23px;
+    color:#fff;
+    font-weight:600;
+}
+.footer .middle li{
+    padding: 5px 0;
+    cursor: pointer;
+}
+.footer .middle li span:hover{
+    color: #fff;
+}
+.copyright{
+    text-align: center;
+    padding:20px 0;
+    background: #033b4a;
+}
+/* -----common responsive css---- */
+@media only screen and (max-width : 1399px){
+  
+}
+@media only screen and (max-width : 1024px) {
+  
+}
+
+@media only screen and (max-width :991px) {
+  
+}
+@media only screen and (max-width : 767px) {
+  
+}
+@media only screen and (max-width : 575.98px) {
+    .footer .upper .contactBox span{
+        height: 25px;
+        width:  25px;
+    }
+    .footer .upper .contactBox{
+        margin-bottom:15px;
+    }
+    .footer .upper .contactBox .contactBoxTitle{
+        font-size:15px;
+    }
+    .footer .upper .contactBox span svg{
+        font-size: 12px;
+    }
+    .footer{
+        padding: 20px 0;
+    }
+    .footer .upper{
+        padding: 0;
+    }
+    .footer .upper .contactBox .contactBoxDesc{
+        font-size:12px;
+    }
+    .footer .upper .contactBox .left{
+        margin-right: 8px;
+    }
+    .footerTitle{
+        font-size: 18px;
+    }
+    .footer .middle li{
+        padding-right: 20px;
+    }
+    /* .middleWrapper{
+        background-color: aliceblue;
+    } */
+}
+@media only screen and (max-width : 480px) {
+ 
+    .footerTitle{
+        font-size: 16px;
+    }
+
+}
+@media only screen and (max-width : 430px)
+{ 
+    .footerTitle{
+        font-size: 15px;
+    }
+   
+ 
+  }
+
+@media only screen and (max-width : 320px) {
+
+  
+
+}

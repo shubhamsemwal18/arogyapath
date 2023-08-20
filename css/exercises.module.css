@@ -1,0 +1,78 @@
+.excercisesCards .excerciseSingleCard {
+   margin:20px 10px;
+}
+.excercisesCards .excerciseSingleCard .excerciseCardPic{
+   position: relative;
+   height:250px;   
+}
+.videoCards .excerciseSingleCard {
+    margin:20px 25px;
+}
+.videoCards .excerciseSingleCard .videoBox{
+    position: relative;
+    height:350px; 
+}
+.videoCards .excerciseSingleCard .excerciseCardContent{
+    padding: 35px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+}
+.excercisesCards .excerciseSingleCard .excerciseCardPic img{
+    object-fit: cover;
+}
+.excercisesCards .excerciseSingleCard .excerciseCardContent{
+    padding: 35px 20px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+}
+.title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #033b4a;
+   
+    text-transform: uppercase;
+}
+
+
+/* -------popup css---------- */
+.customPopup:global(.modal){ 
+    padding: 20px!important;
+    z-index: 1111;
+   }
+   .modalWrapper{
+     border-bottom: 1px solid #dedede;
+     padding: 8px 0;
+   }
+   .modalHeading{
+     font-size: 15px;
+     font-weight: 600;
+     
+   }
+   .modalPara{
+     font-size:13px;
+     margin-bottom: 0;
+   }
+   .customPopup:global(.modal) div:global(.modal-header){
+     background-color:#2BBF50;
+     color: #fff;
+   }
+   .customPopup:global(.modal) div:global(.modal-header) button:global(.btn-close){
+     background:#fff!important;
+     opacity: 1;
+     border-radius:50%;
+     height: 15px;
+     width: 15px;
+     line-height: 15px;
+     display: flex;
+     font-size: 15px;
+     color:#2BBF50;
+     
+   }
+   
+   

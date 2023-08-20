@@ -1,0 +1,53 @@
+.errorArea{
+    min-height: 100vh;
+    background:#EBEBEB;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+}
+.errorCard{
+    background-color:#fff;
+    padding: 40px;
+    box-shadow: 0 30px 33px -41px rgb(0 0 0 / 24%);
+    border-radius:20px;
+    text-align:center;
+}
+.errorCard .one{
+    display:flex;
+    justify-content: center;
+    margin-bottom:20px;
+}
+.errorCard .one span{
+    display:inline-block;
+    background-color:#ff0047;
+    width: 85px;
+    height: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+     border-radius: 50%;
+    font-size: 35px;
+
+}
+.errorCard .errorTitle{
+    color: #ff0047;
+    font-size:28px;
+    letter-spacing: 1px;
+    font-weight:600;
+}
+.errorBtn{
+    background-color: #ff0047;
+    color: #fff;
+    padding: 5px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border: 0;
+    margin-top: 20px;
+}
+.errorContent{
+    opacity: .7;
+    font-weight: 400;
+    font-size: 15px;
+}

@@ -1,0 +1,144 @@
+/* .dashHeader{
+    background: #EBEBEB;
+    position: fixed;
+    width: 100%;
+    left: 0;
+} */
+
+/* ------on scroll fixed nav-------- */
+.headerScrolled
+{
+left: 0;
+margin: auto;
+position: fixed;
+top: 0;
+width: 100%;
+box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+
+z-index: 10;
+background-color:#fff;
+}
+
+.dashHeader{
+    left: 0;
+margin: auto;
+position:sticky;
+top: 0;
+width: 100%;
+box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+background-color: #fff;
+z-index: 999;
+
+height: 100px;
+}
+
+.dashHeader .filled-btn{
+  font-size: 15px;
+}
+
+
+.showDiv{
+    display: block;
+}
+.hideDiv{
+    display: none;
+}
+
+.dashTopWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+   
+}
+.dashTopWrapper .left select{
+    background-color: transparent;
+    border:0;
+    font-size:15px;
+    font-weight:400;
+}
+.dashTopWrapper .Right .userDropdown{
+    background: #2BBF50;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 8px 35px;
+    border-radius: 0;
+}
+
+.dashHeaderNav{
+    background: #FFFFFF;
+   box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.11);
+}
+
+.dashHeader .right{
+    background-color:#2BBF50;
+    color:#fff!important;
+}
+
+.mainNav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.mainNav span{
+     display: flex;
+     align-items:center;
+    padding:8px 16px;
+    cursor: pointer;
+    /* color: #fff!important; */
+    font-weight: 400;
+    font-size: 16px;
+    transition: all .3s ease-in-out 0s;
+    letter-spacing: .7px;
+    transition: all .3s ease-in-out 0s;
+}
+.mainNav span:hover{
+    background-color:#2BBF50;
+    /* color:#fff!important; */
+}
+.mainNav span svg{
+    color:#fff!important;
+}
+
+.mainNav span.active{
+    
+    color: #2BBF50!important;
+}
+.mainNav span.active svg{
+    color: #2BBF50;
+}
+.mainNav span.active:hover{
+    background-color: #fff;
+}
+.mainNav span svg{
+    color: #000;
+    margin-right:5px;
+}
+
+.cursor{
+    cursor: pointer;
+}
+
+.customizeMenuList{
+    max-height: 60vh;
+    overflow-y: scroll;
+}
+
+  /* width */
+  .customizeMenuList::-webkit-scrollbar {
+    width: 2px;
+}
+
+/* Track */
+.customizeMenuList::-webkit-scrollbar-track {
+    background:#84bf93;
+    border-radius: 10px;
+}
+
+/* Handle */
+.customizeMenuList::-webkit-scrollbar {
+    background: rgba(255,255,255,0.6);
+    border-radius: 10px;
+    height: 5px;
+}

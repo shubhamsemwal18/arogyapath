@@ -1,0 +1,966 @@
+.commonFormArea{
+    padding:20px 0;
+    background-color:#EBEBEB;
+    min-height: calc( 100vh - 160px);
+    position: relative;
+}
+.commonFormWrapper{
+    background: #fff;
+    border-radius: 10px;
+     box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+     padding:30px 35px;
+}
+.commonFormInnerHeading{
+    font-size:18px;
+    font-weight:500;
+}
+.commonDelete{
+
+    background-color: red;
+    border: 0;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    color: #fff;
+}
+
+
+.formTitle{
+    
+    font-size: 22px;
+    
+    padding-bottom: 12px;
+
+  }
+  .formCommonUnderline{
+    border-bottom: 1px solid #dedede;
+    margin: 0 0 20px 0;
+
+  }
+
+
+
+.formTitlelogo{
+    background: #FF7D00;
+    display: inline-block;
+    width: 45px;
+    height:45px;
+    border-radius:50%;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 14px;
+}
+.formTitlelogo svg{
+    color:#fff;
+    font-size: 23px;
+}
+.feildWrapper input,.feildWrapper textarea{
+    line-height: 40px;
+   
+    /* -webkit-box-shadow: inset 0px 1px 3px 0px rgb(0 0 0 / 8%);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0px 1px 3px 0px rgb(0 0 0 / 8%); */
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    border: 0.4px solid #dedede;
+
+}
+/* change line-height 40px to 20px by shubham */
+.feildWrapper select{
+    line-height: 20px;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #666;
+    transition: all 0.4s ease;
+    border: 0.4px solid #dedede;
+    width: 100%;
+}
+.feildWrapper input[type="radio"]{
+    width: fit-content;
+}
+.feildWrapper{
+    padding:10px 0;
+}
+.feildWrapper label{
+    margin-bottom: 12px;
+    font-size:16px;
+    font-weight:400;
+}
+.formButton{
+    background: #2BBF50;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 8px 45px;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 20px;
+    min-width: 170px;
+}
+.formButtonPrev{
+    background-color: #e9ecef;
+    font-size: 15px;
+    font-weight: 400;
+    color:#8b8b8b;
+    padding: 8px 45px;
+    border-radius: 4px;
+    border: 0;
+    margin-top: 20px;
+    min-width: 170px;
+    margin-right: 20px;
+}
+.sideTitle{
+    font-size: 24px;
+    color:#fff;
+
+}
+.sideInfoBox{
+    background-color:#fff;
+    border-radius: 15px;
+    overflow: hidden;
+    /* height: 100%; */
+    position: sticky;
+    /* z-index: 1040; */
+    top: 115px;
+}
+.sideInfoBox .upper{
+    padding: 20px 40px;
+    background: #2BBF50;
+    margin-bottom: 0;
+}
+.sideInfoBox .upper svg{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.sideInfoBox .lower{
+    padding: 40px 40px;
+}
+.sideInfoBox .lower p{
+    font-weight:300;
+}
+.tabButton{
+  
+    box-shadow: 0px 4px 11px 0px rgb(0 0 0 / 14%);
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    background-color: #fff;
+    padding: 8px 30px 8px 0px;
+
+}
+.tabButton .tabIcon{
+    background-color: #2BBF50;
+    padding: 20px 25px;
+    margin-right: 12px;
+    color: #fff;
+    font-size: 24px;
+}
+
+/* .tabButton.active .tabIcon{
+    background-color: red!important;
+} */
+
+/* added by shubham for basic table ui */
+/* .feildWrapper table{
+    border: 1px solid #33d6a3;
+} */
+
+.feildWrapper table thead{
+    background: #33d6a3;
+    color: white;
+}
+
+.feildWrapper table thead th{
+    padding: 10px 50px;
+}
+
+.feildWrapper table tbody tr{
+    text-align: center;
+}
+
+.feildWrapper table tbody tr:nth-child(even) {
+    background-color: lightgreen;
+}
+.feildWrapper label.customGroup{
+    background-color:#2BBF50;
+    color: #fff;
+}
+
+.formErrors{
+    color: #FF7D00;
+  }
+/* ----------common table structure-------- */
+  .allListTable table{
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+  }
+  .allListTable table tr{
+      border-radius:5px;
+  }
+  .allListTable table tr .allListTableActionList{
+    padding: 0px 10px 0px 0px;
+  }
+  .allListTable table th, .allListTable table td{
+      padding: 10px 15px;
+      text-align: center;
+  }
+  
+  .allListTable table thead th, .allListTable table tbody td{
+    text-align: center;
+    padding: 10px;
+  }
+  .allListTableHeadings{
+      background:#2BBF50;
+      color:#fff;
+      outline: 1px solid #2BBF50;
+  }
+  .allListTableSingleRow{
+     outline: 1px solid #dedede;
+  }
+  .actionList{
+      list-style: none;
+      margin: 0;
+      padding: 0;
+  }
+  .actionList li span{
+      color: black;
+      padding: 0;
+  }
+  .actionList li span::after{
+      display: none;
+  }
+  .actionList li ul {
+    background:#fff;
+    min-width: unset;
+    padding: 0;
+   box-shadow: 0px 0px 5px #dedede;
+    /* transform: translate(-42px, 42px)!important; */
+    min-width: 100px;
+    font-size: 14px;
+    transform: translate(-114px, 4px)!important;
+  }
+  .actionList li ul li span{
+      padding: 5px 10px;
+      cursor: pointer;
+  }
+  /* ---------radio ------------- */
+  .repeatedRadioBox{
+    background: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    /* box-shadow: 0 1px 3px rgb(0 0 0 / 12%), 0 1px 2px rgb(0 0 0 / 24%); */
+    /* display: flex; */
+   
+  }
+  /* .repeatedRadioBoxWrapper{
+      display: flex;
+      justify-content: center;
+  } */
+  .commonRadioBoxBorderRight{
+    border-right: 1px solid #dedede;
+
+  }
+  /* .customLevelBox{
+      padding-left: 30px;
+  } */
+  .customLevelBox label{
+      font-weight: 600;
+  }
+  .weekBox{
+    display: flex;
+  }
+
+  .weekBox .feildWrapper{
+      width:80px;
+  }
+  .medicineListBox{
+      list-style:none;
+      padding-left: 0;
+      margin: 0;
+      display: flex;
+  }
+  .medicineListBox li{
+    display: flex;
+    
+    justify-content: space-between;
+    margin-right: 45px;
+  }
+  .medicineListBox li label{
+      margin-right: 20px;
+  }
+  .medicineListBox li input[type="checkbox"]
+  {
+      width:fit-content;
+  }
+
+  /* --------consultant page css rebuild----------- */
+  .customLabelSecond{
+      font-size: 14px!important;
+      color:#004978;
+  }
+  .feildWrapper ::placeholder{
+      color: #8b8b8b;
+      font-size:14px;
+      font-weight: 300;
+  }
+  .customInputBg{
+      background-color: #e2e2e2;
+  }
+  
+  .customTableHeading{
+    color:#004978;
+    font-size:24px;
+    font-weight:500;
+    position: relative;
+    padding: 0 5px;
+    z-index: 5;
+    display: inline-block;
+    margin-left: 70px;
+    margin-bottom: 0;
+    background: #fff;
+  }
+  /* .customTableHeading::before{
+    position: absolute;
+    display: block;
+    content: '';
+    height: 2px;
+    background: red;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+     z-index: 2;
+    width: 100%;
+  }
+  .customTableHeading::after{
+    position: absolute;
+    display: block;
+    content: '';
+    height: 2px;
+    background: red;
+    right: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+     z-index: 2;
+    width: 100%;   
+  } */
+  .customTableHeadingLine{
+    position: absolute;
+    height: 1px;
+    background:#2BBF50;
+    left: 0;
+    right: 0;
+    display: block;
+    content: '';
+    z-index: 0;
+    top: 50%;
+  }
+  .customTable{
+      
+      border:1px solid #d9d9d9;
+  }
+  .customTable tr{
+    border:0;
+  }
+  .customTable td{
+      padding: 10px 25px;
+      border-right: 1px solid #d9d9d9;
+      width:15%;
+  }
+  .customTable th
+  {    
+    border-bottom: 1px solid #d9d9d9;
+    border-right: 1px solid #dedede;
+    padding: 20px 25px;
+    color: #208CDB;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 15px;
+    border-top: 1px solid #d9d9d9;
+      
+  }
+
+  /* ----------------custom radio button css---------- */
+  .customRadio {
+    display: block;
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-bottom: 0;
+  }
+  
+  /* Hide the browser's default radio button */
+  .customRadio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 3px;
+    left: 0;
+    height: 16px;
+    width: 16px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .customRadio:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .customRadio input:checked ~ .checkmark {
+    background-color:#2BBF50;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .customRadio input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .customRadio .checkmark:after {
+    top: 50%;
+    left: 50%;
+    width: 10px;
+    height: 10px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: white;
+  }
+  .testBox{
+    
+    border:1px solid #d9d9d9;
+    border-radius: 4px;
+}
+.testBox ul{
+    list-style-type: none;
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.testBox ul li{
+    margin: 4px 9px;
+    width: 98px;
+}
+
+
+/* -------consultant third form custom css---------- */
+.weeksListWrapper{
+    display: flex;
+    
+}
+.weeksListWrapper .customRadio{
+   margin-right:8px;
+}
+
+/* ---------exercise page custom css----- */
+.exerciseListCard{
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+    margin: 10px 0;
+    overflow: hidden;
+    padding:20px;
+}
+.exerciseListCard .title{
+    font-weight:500;
+    text-transform: uppercase;
+    color: #2BBF50;
+}
+.exerciseListCard .actionBox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    height:100%;
+}
+.exerciseListCard .actionBox button{
+    background-color: #2BBF50;
+    margin: 0 3px;
+    border: 0;
+    padding: 8px 10px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    justify-content: center;
+    border-radius: 2px;
+}
+.exerciseListCardPic{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 2%);
+   
+}
+.aboutRight img{
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+    object-fit: cover;
+    
+  }
+
+
+  /* -----------afterConsultationTab extra css------------ */
+ /* .tabListParentBox{
+     border-bottom:2px solid #e9ecef;
+ } */
+  .tabLinks{
+     
+    font-size: 15px;
+    border-radius: 0!important;
+    padding: 10px 30px;
+    color: #033b4a;
+    background-color: #e9ecef!important;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 5px!important;
+  }
+  .tabLinks:global(.nav-link):hover{
+      color:#033b4a!important;
+  }
+  .tabLinks:global(.active){
+    background-color:#2BBF50!important;
+  }
+  .tabLinks:global(.active):hover{
+      color:#fff!important;
+  }
+  /* ----------patient card------------ */
+  .patientPicCard
+  {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+    overflow: hidden;
+    margin: 20px 0;
+  }
+  
+  .patientPicCard .patientUploadPic{
+    position: relative;
+    height: 200px;
+    
+
+  }
+  .patientPicCard .patientUploadPic img{
+    width: 100%!important;
+    height: 100%!important;
+    position: relative!important;
+    object-fit: cover;
+  }
+  .patientPicCard  .patientUploadTitle{
+     padding: 12px 10px;
+     text-align: center;
+     margin-bottom: 0;
+  }
+  .patientPicCard  .patientUploadTitle p{
+      margin-bottom: 0;
+  }
+  .reportFileCard{
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 20px 0px rgb(0 0 0 / 15%);
+    overflow: hidden;
+    margin: 20px 0;
+    padding: 20px;
+  }
+  .reportFileCardIcon{
+        padding:20px;
+        text-align: center;
+  }
+  .reportFileCardIcon svg{
+      color:#a80604;
+      font-size:60px;
+
+  }
+  .reportFileCardButtons{
+      display: flex;
+      justify-content: center;
+  }
+  .reportFileCardButtons .formButton{
+      width: 50%;
+  }
+  .reportFileCardSingleButton{
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+    margin: 20px 5px 5px 5px;
+    width: 110px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  /* --------------after consultaion form css------------ */
+  .consultationpreviewList{
+      padding-left: 0;
+      margin:0;
+  }
+  .consultationpreviewList li{
+     display: flex;
+     margin: 5px 0;
+  }
+  .consultationpreviewListLeft span{
+    font-weight: 400;
+    
+    padding-right: 30px;
+    display: inline-block;
+    font-size: 14px;
+    padding: 10px 0;
+    font-size: 14px!important;
+    color: #004978;
+  }
+  .kidneyFunctionTestPreviewBox .customLabelSecond{
+    padding: 20px 25px;
+    color: #208CDB;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 15px;
+  }
+
+  /* -------------------main disease without table--------- */
+  .majorDiseasesCard h2{
+    padding: 20px;
+    color: #208CDB;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin-bottom: 0px;
+    border : 1px solid #d9d9d9;
+  }
+  .majorDiseasesCard .majorDiseasesOption{
+    border : 1px solid #d9d9d9;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .majorDiseasesCard .majorDiseasesOption label{
+    margin-bottom: 15px;
+  }
+
+
+  .diseasesWiseMedicineWrapper{
+    border: 1px solid #d9d9d9;
+    padding: 20px;
+  }
+  .diseasesWiseMedicineWrapperHeading{
+    color: #208CDB;
+    font-weight: 500;
+    letter-spacing: .5px;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+
+  .deleteIcons{    
+    border: 0;
+    background: #e84c3d;
+    color: white;
+    font-weight: 400;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: .5px;
+    text-transform: capitalize;
+  }
+
+  .imageWrapper{
+    position: relative;
+  }
+
+  .imageWrapper input[type="file"]{
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.captureImgCard{
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  padding: 10px;
+  border-radius:3px;
+  position: relative;
+}
+
+.captureImgCard h5{
+  background: #e9ecef;
+    color: black;
+    padding: 5px 10px;
+    position: absolute;
+    left: 0;
+    top: 0px;
+    font-size: 13px;
+    border-radius: 3px 0px 0px 0px;
+    text-transform: uppercase
+}
+
+.captureImgCard span{
+    position: relative!important;
+    padding: 30px!important;
+}
+.captureImgCard span img{
+    position: relative!important;
+    height: 170px!important;
+    width: auto!important;
+    object-fit: cover;
+}
+.captureImgCard .btnBox p{
+  font-weight: 500;
+}
+.captureImgCard .btnBox{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.captureImgCard .btnBox button{
+  min-width: unset!important;
+  padding: 3px 15px !important;
+  margin: 0!important;
+  font-size: 13px!important;
+}
+
+.customTextarea{
+  font-size: 12px;
+  padding: 5px;
+  border-radius: 5px;
+  resize: none;
+  border: 0.4px solid #dedede;
+}
+
+.customTextarea::-webkit-scrollbar {
+  width: 0px;
+}
+
+/* Customize patient dashboard to show prev-consultation details */
+
+.customRightBox{
+  border-right:1px solid rgb(0 0 0 / 15%) ;
+  margin-bottom: 0;
+  min-height: 100%;
+  max-height: 90vh;
+  overflow-y: scroll;
+
+}
+
+.customLeftBox{
+  box-shadow: none!important;
+  max-height: 90vh;
+  overflow-y: scroll;
+}
+
+.activeTab{
+  background-color: #2BBF50;
+  color: white;
+  font-weight: 500;
+  border-radius: 0;
+  opacity: 1!important;
+}
+
+
+/* width */
+.scorllable::-webkit-scrollbar,.patientExerciseCard .two::-webkit-scrollbar,.textWrapper::-webkit-scrollbar
+ {
+  width: 2px;
+}
+
+/* Track */
+.scorllable::-webkit-scrollbar-track,.patientExerciseCard .two::-webkit-scrollbar-track,
+.textWrapper::-webkit-scrollbar-track{
+  background:#84bf93;
+  border-radius: 10px;
+}
+
+/* Handle */
+.scorllableList::-webkit-scrollbar-thumb,.patientExerciseCard .two::-webkit-scrollbar-thumb,
+.textWrapper::-webkit-scrollbar-thumb {
+  background: rgba(255,255,255,0.6);
+  border-radius: 10px;
+  height: 5px;
+}
+
+
+.customLoader{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.consultationHeight{
+  max-height:calc( 100vh - 160px);
+  overflow-y: auto;
+  overflow-x: hidden;
+
+}
+
+.consultationHeight::-webkit-scrollbar{
+  width: 5px;
+}
+.consultationHeight::-webkit-scrollbar-track {
+  background:#2BBF50;
+}
+.consultationHeight::-webkit-scrollbar-thumb{
+
+}
+
+
+/* form responsive */
+/* @media screen and (min-width: 770px) 
+ {   
+.form_allListTable__BaY78 table {
+    width: 90%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+}
+  
+} */
+
+
+/* --------------------my 8dec css for patient dashboard------ */
+.patientSearch{
+  position: relative;
+  overflow: hidden;
+}
+.patientSearch .patientSearchBtn{
+  background-color:#2BBF50;
+  color:#fff;
+  border:0;
+  position:absolute;
+  right:0;
+  height: 100%;
+  padding: 0 8px 0 8px;
+}
+
+                                            
+.patientSearch .common-searchBox{
+  border-radius: 0;
+}
+
+.patientSearch .patientSearchInput{
+  border-radius: 0;
+  padding: 5px 40px;
+}
+.patientSearch .patientSearchInput::placeholder{
+  font-size: 13px;
+}
+
+input.patientSearchInput:-internal-autofill-selected{
+  background-color: red!important;
+}
+
+.custom_vat_observation {
+  margin-left: 15px;
+}
+
+.custom_vat_observation label{
+  margin-bottom: 15px;
+  display: inline;
+  font-size: 13px;
+
+}
+
+
+
+
+
+
+/* -------------------responsive---------- */
+@media (max-width: 1399.98px) 
+{ 
+  
+ }
+
+ @media (max-width: 1199.98px) 
+ { 
+  .formTitle{
+      
+    font-size: 18px;
+  }
+  .formTitlelogo{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .formTitlelogo svg{
+    font-size: 18px;
+  }
+  .patientPicCard .patientUploadPic{
+    height: 160px;
+  }
+  .feildWrapper label{
+    margin-bottom:5px;
+  }
+
+ }
+ @media (max-width: 991.98px) 
+ {  
+  .formTitle{
+      
+    font-size: 16px;
+  }
+  .formTitlelogo{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+  .formTitlelogo svg{
+    font-size: 16px;
+  }
+  
+ }
+ 
+ @media (max-width: 767.98px) 
+ { 
+  
+ }
+ @media (max-width: 575.98px) 
+ { 
+ 
+  .formTitle{
+      
+    font-size: 16px;
+  }
+
+  .formTitlelogo{
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+  }
+  .formTitlelogo svg{
+    font-size: 15px;
+  }
+
+}
+.customizeCheckbox input[type="checkbox"]{
+   accent-color: green;
+   width: fit-content;
+}

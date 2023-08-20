@@ -1,0 +1,192 @@
+.dropbtn {
+   
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 2;
+  }
+  .dropdownContent span:hover {
+    background-color:#2BBF50;
+    color:#fff;
+  }
+  
+  .dropdown:hover .dropdownContent {display: block;}
+  
+  
+
+  .headerTop .left ul{
+    list-style-type:none;
+    padding-left: 0;
+      
+  }
+  .headerTop .left ul li{
+    color: #fff;
+    font-size:12px;
+    
+  }
+  .headerTop .left ul li svg{
+    color:#2BBF50;
+    font-size:15px;
+  }
+  .headerTop .right{
+    display:flex;
+  }
+  .headerTop .right ul li svg{
+    color:#fff;
+    font-size:15px;
+  }
+  .headerTop .wrapper{
+    display: flex;
+    padding:5px 0;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  /* --------navabar-------------- */
+ .header{
+  left: 0;
+  margin: auto;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+  z-index: 10;
+  background-color: #fff;
+}
+ .navbar-light .navbar-toggler-icon{
+  background-image: none;
+
+}
+
+ .mainNav span , .dropdownContent span {
+   display:inline-block;
+   padding:8px 16px;
+   margin: 0 8px;
+   cursor: pointer;
+   color:#033b4a;
+   font-weight: 400;
+   font-size:16px;
+   transition: all .3s ease-in-out 0s;
+
+ }
+ .dropdownContent span{
+   display: block;
+   margin: 0;
+ }
+ .mainNav span:hover{
+   color:#2BBF50;
+ }
+ .mainNav  .dropdownContent span:hover{
+   color:#fff;
+ }
+ 
+ .book{
+  padding: 15px;
+  background: #033b4a;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+ }
+ /* .logoBox{
+   position: relative;
+   */
+ /* } */
+ /* .headerScrolled
+{
+left: 0;
+margin: auto;
+position: fixed;
+top: 0;
+width: 100%;
+box-shadow: 0 10px 15px rgb(25 25 25 / 10%);
+padding-bottom: 5px;
+z-index: 10;
+background-color:#fff;
+} */
+/* -----common responsive css---- */
+@media only screen and (max-width : 1399px){
+  
+}
+@media only screen and (max-width : 1024px) {
+  
+}
+
+@media only screen and (max-width :991px) {
+  
+}
+@media only screen and (max-width : 767px) {
+  
+}
+@media only screen and (max-width : 575px) {
+  .headerTop .left ul li{
+    font-size:10px;
+
+  }
+  .headerTop .left ul li svg{
+    font-size:12px;
+  }
+  .headerTop .right ul{
+    margin-right: 2px!important;
+  }
+  .headerTop .right ul li{
+  padding: 0 2px!important;
+}
+.headerTop .right ul li svg{
+  font-size: 12px;
+}
+ .homeNav{
+  background-color:#FCFFE7!important;
+  padding: 5px 0!important;
+}
+.mainNav span {
+ padding-left: 0;
+}
+.dropdownContent span{
+  padding-left: 16px;
+}
+
+.mainNav span,.dropdownContent span{
+  font-size: 13px;
+} 
+.headerTop .left ul{
+  flex-wrap: wrap;
+}
+
+
+}
+
+
+@media only screen and (max-width : 480px) {
+ 
+ 
+
+}
+@media only screen and (max-width : 430px)
+{ 
+  .headerTop .left ul{
+    flex-wrap: wrap;
+}
+ 
+  }
+
+@media only screen and (max-width : 320px) {
+
+  
+
+}

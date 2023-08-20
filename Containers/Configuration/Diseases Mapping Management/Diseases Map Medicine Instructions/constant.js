@@ -1,0 +1,14 @@
+export const CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION = "app/Diseases Map Medicine Instructions/CreateMedicineInstruction/CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION";
+export const CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION_SUCCESS = "app/Diseases Map Medicine Instructions/CreateMedicineInstruction/CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION_SUCCESS";
+export const CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION_FAILURE = "app/Diseases Map Medicine Instructions/CreateMedicineInstruction/CREATE_DISEASE_WITH_MEDICINE_INSTRUCTION_FAILURE";
+
+export const UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION  = "app/Diseases Map Medicine Instructions/UpdateMedicineInstruction/UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION";
+export const UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION_SUCCESS = "app/Diseases Map Medicine Instructions/UpdateMedicineInstruction/UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION_SUCCESS";
+export const UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION_FAILURE = "app/Diseases Map Medicine Instructions/UpdateMedicineInstruction/UPDATE_DISEASE_WITH_MEDICINE_INSTRUCTION_FAILURE";
+
+
+export const GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION = "app/Diseases Map Medicine Instructions/GetMedicineInstruction/GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION";
+export const GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION_SUCCESS = "app/Diseases Map Medicine Instructions/GetMedicineInstruction/GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION_SUCCESS";
+export const GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION_FAILURE = "app/Diseases Map Medicine Instructions/GetMedicineInstruction/GET_DISEASE_MAPPED_MEDICINE_iNSTRUCTION_FAILURE";
+
+export const RESET_TO_INITIAL_STATE = "app/Diseases Map Medicine Instructions/RESET_TO_INITIAL_STATE" 
